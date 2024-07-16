@@ -34,7 +34,7 @@ Fake API data
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-username/flutter-ecommerce-app.git
+   git clone [https://github.com/Prateek-Fst/Prateek_Software_Engineering_Assignment_Flutter.git]
    cd flutter-ecommerce-app
    flutter pub get
    flutter run
