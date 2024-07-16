@@ -26,28 +26,28 @@ class CheckoutScreen extends StatelessWidget {
               decoration: InputDecoration(
                 labelText: 'Full Name',
               ),
-              // Implement validation and controller as needed
+             
             ),
             SizedBox(height: 10),
             TextFormField(
               decoration: InputDecoration(
                 labelText: 'Address',
               ),
-              // Implement validation and controller as needed
+             
             ),
             SizedBox(height: 10),
             TextFormField(
               decoration: InputDecoration(
                 labelText: 'Email',
               ),
-              // Implement validation and controller as needed
+              
             ),
             SizedBox(height: 20),
             Text(
               'Payment Information',
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
-            // Implement payment gateway integration or additional fields as needed
+          
             SizedBox(height: 20),
             Text(
               'Order Summary',
@@ -88,9 +88,7 @@ class CheckoutScreen extends StatelessWidget {
             ),
             ElevatedButton(
               onPressed: () {
-                // Implement logic to place order
-                // Example: Call an API to submit order details
-                // Navigator.pop(context); // Navigate back to previous screen after order placed
+              //no logic written here
               },
               child: Text('Place Order'),
             ),
