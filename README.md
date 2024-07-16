@@ -15,8 +15,9 @@ A Flutter-based e-commerce application that fetches and displays products from [
 - **Sign Out**: Sign out from the application.
 
 ## Screenshots
+<img width="1440" alt="Screenshot 2024-07-15 at 7 22 03 PM" src="https://github.com/user-attachments/assets/230e9817-492a-4883-81ea-24d29235a9d5">
 
-[Add screenshots here]
+
 
 ## Getting Started
 
