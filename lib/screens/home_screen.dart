@@ -31,7 +31,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   void _scrollListener() {
     if (_scrollController.position.pixels == _scrollController.position.maxScrollExtent) {
-      // Reached the bottom
+    
       _fetchProducts();
     }
   }
@@ -52,7 +52,7 @@ class _HomeScreenState extends State<HomeScreen> {
       setState(() {
         _isLoading = false;
       });
-      // Handle error, e.g., show a SnackBar or retry mechanism
+     
       print('Error fetching products: $e');
     }
   }
