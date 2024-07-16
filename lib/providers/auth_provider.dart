@@ -6,12 +6,12 @@ class AuthProvider with ChangeNotifier {
   AuthStatus _status = AuthStatus.uninitialized;
   AuthStatus get status => _status;
 
-  // Simulating user authentication logic
+ 
   Future<void> signIn(String email, String password) async {
     _status = AuthStatus.authenticating;
     notifyListeners();
 
-    // Simulate API call for authentication
+   
     await Future.delayed(Duration(seconds: 2));
 
     // Assuming successful authentication for demonstration
@@ -23,7 +23,7 @@ class AuthProvider with ChangeNotifier {
     _status = AuthStatus.authenticating;
     notifyListeners();
 
-    // Simulate API call for registration
+   
     await Future.delayed(Duration(seconds: 2));
 
     // Assuming successful registration for demonstration
